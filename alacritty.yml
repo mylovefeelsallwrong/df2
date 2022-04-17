@@ -1,0 +1,87 @@
+# vim: set ft=yml:
+#colors:
+#  # Default colors
+#  primary:
+#    background: '0x151718'
+#    foreground: '0xd6d6d6'
+#
+#  # Colors the cursor will use if `custom_cursor_colors` is true
+#  cursor:
+#    text: '0x151718'
+#    cursor: '0xd6d6d6'
+#
+#  # Normal colors
+#  normal:
+#    black:   '0x151718'
+#    red:     '0xcd3f45'
+#    green:   '0x9fca56'
+#    yellow:  '0xe6cd69'
+#    blue:    '0x55b5db'
+#    magenta: '0xa074c4'
+#    cyan:    '0x55dbbe'
+#    white:   '0xd6d6d6'
+#
+#  # Bright colors
+#  bright:
+#    black:   '0x41535b'
+#    red:     '0xcd3f45'
+#    green:   '0x9fca56'
+#    yellow:  '0xe6cd69'
+#    blue:    '0x55b5db'
+#    magenta: '0xa074c4'
+#    cyan:    '0x55dbbe'
+#    white:   '0xffffff'
+#
+#  indexed_colors:
+#    - { index: 16, color: '0xdb7b55' }
+#    - { index: 17, color: '0x8a553f' }
+#    - { index: 19, color: '0x282a2b' }
+#    - { index: 19, color: '0x3b758c' }
+#    - { index: 20, color: '0x43a5d5' }
+#    - { index: 21, color: '0xeeeeee' }
+font:
+  normal:
+    family: Dina
+
+    style: Regular
+
+  bold:
+    family: Dina
+    style: Bold
+
+  italic:
+    family: Dina
+    style: Italic
+
+  bold_italic:
+    family: Dina
+    style: Bold Italic
+
+  size: 7
+# BEGIN ACE
+colors:
+  primary:
+    background: '#ffffff'
+    foreground: '#080707'
+  cursor:
+    text:       '#ffffff'
+    cursor:     '#080707'
+  normal:
+    black:      '#ffffff'
+    red:        '#B2B0AF'
+    green:      '#C2BDBB'
+    yellow:     '#C4C1BF'
+    blue:       '#C0BFC0'
+    magenta:    '#D2D0CF'
+    cyan:       '#080707'
+    white:      '#080707'
+  bright:
+    black:      '#999999'
+    red:        '#B2B0AF'
+    green:      '#C2BDBB'
+    yellow:     '#C4C1BF'
+    blue:       '#C0BFC0'
+    magenta:    '#D2D0CF'
+    cyan:       '#E1DFDE'
+    white:      '#080707'
+# END ACE
